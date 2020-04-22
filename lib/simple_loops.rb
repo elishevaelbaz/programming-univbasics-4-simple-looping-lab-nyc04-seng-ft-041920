@@ -1,3 +1,10 @@
 # Write your methods here
 
-loop_message
+def loop_message_five_times(string)
+  
+  counter = 0
+  while counter < 5 do
+    puts string
+    counter++
+  end
+end
